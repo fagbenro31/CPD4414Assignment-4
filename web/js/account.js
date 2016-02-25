@@ -39,7 +39,7 @@ function deposit() {
        success: refreshBalance
     });
 }
-function closeAccount() {
+function closeAccount() { 
     $.ajax({
        url: 'account',
        method: 'POST',
